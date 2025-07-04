@@ -3,6 +3,7 @@ body {
     background: green;
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
      color: rgba(0, 0, 255, 0.790);
 }
 
-section {
+.chamada {
     background: rgb(0, 0, 255, 0.790);
     padding-bottom: 80px;
     padding-top: 45px;
@@ -35,6 +36,29 @@ img {
     height: 350px;
 }
 
-.Temporada-Alviverde {
-    
+.Temp-Palmeiras {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.Temp {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    margin-top: 29px;
+}
+
+.Temp-Palmeiras img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.Temp-Palmeiras img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(0, 110, 255);
+}
+
+.Temp {
+    color: rgba(0, 0, 255, 0.790);
 }
